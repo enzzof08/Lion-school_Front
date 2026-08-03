@@ -1,0 +1,203 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+header{
+    display: flex;
+    background-color: #3347B0;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.lion img{
+    width: 7vw;
+    height: 8vh;
+}
+
+.sair img{
+    width: 3vw;
+    height: 4vh;
+}
+
+.sair{
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    gap: 7px;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3347B0;
+    background-color: #BCC2E5;
+    width: 100vw;
+    height: 4vh;
+    padding: 0 80px;
+}
+
+.legenda{
+    display: flex;
+    gap: 15px;
+}
+.cursando{
+    background-color: #3347B0;
+    height: 20px;
+    width: 20px;
+}
+
+.finalizado{
+    background-color: #E5B657;
+    height: 20px;
+    width: 20px;
+}
+
+/* main{
+    flex-grow: 1;
+    display: flex;
+    color: #353535;
+    font-size: 40px;
+    padding: 100px 140px;
+    justify-content: space-between;
+    
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.curso h1 span {
+    color: #3347B0; 
+}
+
+.i1{
+    height: 420px;
+}
+
+.moca{
+    height: 55vh;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    gap: 90px;
+}
+
+.botoes img{
+    height: 9vh;
+    width: 6vw;
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3347B0;
+    height: 25vh;
+    width: 25vw; 
+    border: 2px solid black;
+    box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.20);
+    transition: .3s;
+}
+
+.b1:hover{
+    transform: scale(1.03);
+    background: #2F3F99;
+}
+
+.b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3347B0;
+    height: 25vh;
+    width: 25vw; 
+    border: 2px solid black;
+    box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.20);
+    transition: .3s;
+}
+
+.b2:hover{
+    transform: scale(1.03);
+    background: #2F3F99;
+} */
+
+footer{
+    display: flex;
+    background-color: #3347B0;
+    height: 15vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    padding: 0 80px;
+}
+
+.meios{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    font-size: 25px;
+}
+
+.meios img{
+    width: 1.8vw;
+    height: 2.3vh;
+
+}
+
+.telefone{
+    display:  flex;
+    gap: 15px;
+}
+
+.email{
+    display:  flex;
+    gap: 15px;
+}
+
+.endereco{
+    display:  flex;
+    gap: 15px;
+}
+
+.autor{
+    font-size: 12px
+}
+
+.social{
+    display: flex;
+    gap: 13px;
+}
+.social img{
+    /* width: 60px;
+    height: 60px; */
+    width: 3vw;
+    height: 5vh;
+}
